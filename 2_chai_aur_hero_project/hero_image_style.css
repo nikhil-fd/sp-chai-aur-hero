@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.change-theme-btn{
+    background-color: #2323db;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 0 #2323db;
+    transition: all 0.15s ease-in-out;
+}
+.change-theme-btn:hover{
+    background-color: #2323db;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 0 #2323db;
+}
+.change-theme-btn:active{
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 #2323db;
+}
+small{
+    padding-top: 20px;
+}
+.trusted-area{
+    display: flex;
+    margin: 20px 0;
+}
+.fitbit-img{
+    margin-left: 10px;
+}
+.airbnb-icon{
+    font-size: 2em;
+    /* margin-left: 20px; */
+}
+.fitbit-img{
+    margin-left: 20px;
+}
+.fitbit-icon{
+    font-size: 2em;
+    margin-left: 10px;
+}
+.vidados-img{
+    margin-left: 20px;
+}
